@@ -1,0 +1,41 @@
+.colorBlack {
+    background-color: #282828;
+}
+
+.colorBlue {
+    background-color: #4890A9;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.logo h2,h4 {
+    margin: 0;
+}
+
+
+.moreInfoContainer {
+    display: flex;
+}
+
+.blackBar {
+    height: 150px;
+    width: 70%;
+    background-color: black;
+}
+
+.greyBar {
+    height: 60%;
+    width: 200px;
+    background-color: #98AAB4;
+}
+
+#circle {
+    background-color: #EEF2F3;
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
