@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .colorBlack {
     background-color: #282828;
 }
@@ -6,15 +11,103 @@
     background-color: #4890A9;
 }
 
+.colorGrey {
+    background-color: #98AAB4;
+}
+
 .container {
     width: 90%;
     margin: auto;
+}
+
+.header-container {
+    padding: 15px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container h2 {
+    font-size: 2.4em;
 }
 
 .logo h2,h4 {
     margin: 0;
 }
 
+.logo {
+    color: #98AAB4;
+}
+
+.navbar {
+    width: 50%;
+}
+
+.navbar ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar li {
+    list-style-type: none;
+    text-decoration: underline;
+    color: #4890A9;
+}
+
+.navbar li:hover {
+    padding: 2px 2px;
+    color: white;
+}
+
+.heroContainer {
+    padding: 20px 0;
+    display: flex;
+}
+
+.hero {
+    width: 50%;
+    padding: 20px 0;
+    color: white;
+}
+
+.hero h1{
+    font-size: 2.3rem;
+    width: 50%;
+}
+
+.button {
+    background-color: #4890A9;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 1px solid #4890A9;
+    border-radius: 3px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.followSteps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+.center {
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 
 .moreInfoContainer {
     display: flex;
