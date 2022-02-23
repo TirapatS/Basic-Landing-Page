@@ -113,15 +113,35 @@ body {
     display: flex;
 }
 
+.leftSide {
+    margin-top: 45px;
+    width: 30%;
+    margin-left: 35px;
+}
+
+.moreInfo {
+    display: flex;
+}
+
+.titleInfo h1 {
+    background-color: black;
+    color: white;
+    margin: 6px;
+    padding: 8px;
+    text-align: center;
+}
+
 .blackBar {
     height: 150px;
-    width: 70%;
+    width: 80%;
+    margin: 51px 10px 50px 50px;
     background-color: black;
 }
 
 .greyBar {
     height: 60%;
     width: 200px;
+    margin-top: 35px;
     background-color: #98AAB4;
 }
 
